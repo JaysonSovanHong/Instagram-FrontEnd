@@ -7,15 +7,15 @@
 
 <p>
 <ul>
-<li><img width="300" alt="Screen Shot 2021-04-29 at 11 40 49 AM" src="https://user-images.githubusercontent.com/80006154/116578776-c028ba00-a8df-11eb-873f-506cdef849ee.png"></li>
+<li><img width="400" alt="Screen Shot 2021-04-29 at 11 40 49 AM" src="https://user-images.githubusercontent.com/80006154/116578776-c028ba00-a8df-11eb-873f-506cdef849ee.png"></li>
 
-<li><img width="300" alt="Screen Shot 2021-04-29 at 11 41 00 AM" src="https://user-images.githubusercontent.com/80006154/116578801-c5860480-a8df-11eb-81e5-2fd14904ac55.png"></li>
+<li><img width="400" alt="Screen Shot 2021-04-29 at 11 41 00 AM" src="https://user-images.githubusercontent.com/80006154/116578801-c5860480-a8df-11eb-81e5-2fd14904ac55.png"></li>
 
-<li><img width="300" alt="Screen Shot 2021-04-29 at 11 43 01 AM" src="https://user-images.githubusercontent.com/80006154/116579105-0e3dbd80-a8e0-11eb-9336-a162abc62d20.png"></li>
+<li><img width="400" alt="Screen Shot 2021-04-29 at 11 43 01 AM" src="https://user-images.githubusercontent.com/80006154/116579105-0e3dbd80-a8e0-11eb-9336-a162abc62d20.png"></li>
 
-<li><img width="300" alt="Screen Shot 2021-04-29 at 11 43 13 AM" src="https://user-images.githubusercontent.com/80006154/116579127-1564cb80-a8e0-11eb-8a00-d14ad1dbb455.png"></li>
+<li><img width="400" alt="Screen Shot 2021-04-29 at 11 43 13 AM" src="https://user-images.githubusercontent.com/80006154/116579127-1564cb80-a8e0-11eb-8a00-d14ad1dbb455.png"></li>
 
-<li><img width="300" alt="Screen Shot 2021-04-29 at 11 43 23 AM" src="https://user-images.githubusercontent.com/80006154/116579148-1b5aac80-a8e0-11eb-92fd-da0c482e0bfc.png"></li>
+<li><img width="400" alt="Screen Shot 2021-04-29 at 11 43 23 AM" src="https://user-images.githubusercontent.com/80006154/116579148-1b5aac80-a8e0-11eb-92fd-da0c482e0bfc.png"></li>
 </ul>
 </p>
 
@@ -52,7 +52,8 @@
 
   </p>
 <h2>WireFrame</h2>
-![Screen Shot 2021-04-29 at 11 36 52 AM](https://user-images.githubusercontent.com/80006154/116578216-324ccf00-a8df-11eb-8b62-c7521759f241.png)
+<img width="500" alt="Screen Shot 2021-04-29 at 12 30 51 PM" src="https://user-images.githubusercontent.com/80006154/116585834-ca01eb80-a8e6-11eb-88e2-fd6b81c4b308.png">
+
 
 <h2>Strech goals</h2>
 <ul>
