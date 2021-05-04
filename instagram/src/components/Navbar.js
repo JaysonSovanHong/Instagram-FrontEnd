@@ -13,6 +13,7 @@ const Navbar = () =>{
         <Link to='/login'>Login-</Link>
         <Link to='/profile'>Profile</Link>
         <Link to='/signup'>Signup</Link>
+        <Link to='/main'>Main</Link>
         <span onClick={() =>{localStorage.removeItem('userId')
         setUser({})
         }}>-Logout</span>

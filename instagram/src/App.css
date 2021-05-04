@@ -19,3 +19,39 @@ button{
     width: 147px;
 }
 
+.headerContainer{
+
+border: black 1px solid;
+width: 90%;
+
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 10px;
+}
+
+
+
+#profileHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#profileHeader img{
+    border-radius: 100px;
+}
+
+#profileBody{
+border-top: gray 1px solid;
+}
+
+#profileMain{
+    display: flex;
+    justify-content: space-evenly;
+
+}

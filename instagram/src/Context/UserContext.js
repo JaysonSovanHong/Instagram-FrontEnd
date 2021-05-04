@@ -4,7 +4,7 @@ import axios from 'axios';
 const UserContext = createContext()
 
 const UserProvider =({children}) =>{
-    const[user,setUser] = useState({})
+    const[user,setUser] = useState({posts:[]})
     
     const fetchUser = async() =>{
         const userId = localStorage.getItem('userId')

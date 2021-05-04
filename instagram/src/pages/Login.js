@@ -11,7 +11,7 @@ const Login = () =>{
     const {userState} = useContext(UserContext) 
     
     const [user, setUser] = userState
-   
+     
 
  
     const handleSubmit = async (e) =>{
@@ -23,7 +23,7 @@ const Login = () =>{
                 localStorage.setItem('userId', newUser.data.user.id)
                 setUser( newUser.data.user)
             } catch (error) {
-                console.log(error);
+                
             }
 
 }
