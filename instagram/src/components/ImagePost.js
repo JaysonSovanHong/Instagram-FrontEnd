@@ -8,6 +8,7 @@ const ImagePost = () => {
     const [image, setImage] = useState('') 
     const [description, setDescription] = useState('')
     
+    
    
 
     const handleSubmit = async (e) => {
