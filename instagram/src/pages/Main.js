@@ -2,7 +2,7 @@ import {UserContext} from '../Context/UserContext'
 import { useContext } from "react"
 
 
-import Header from '../components/Header'
+
 import Timeline from '../components/Timeline'
 import Sidebar from '../components/Sidebar'
 import ImagePost from '../components/ImagePost'
@@ -12,15 +12,17 @@ const Main = ({posts}) =>{
     const [user, setUser] = userState
     
     return(
-    <div>
+    <div id='main'>
         <div className='container'> 
-            <Header />
             <ImagePost />
+          
         </div>
         
         <div className='grid'>
-            <div className="gird1"><Timeline posts={posts}/></div> 
-            <div className="grid2"><Sidebar /></div>
+            <div className="gird1"><Timeline posts={posts}/>
+            </div> 
+            <div className="grid2"><Sidebar />
+            </div>
         </div>   
     </div>
 

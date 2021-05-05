@@ -23,36 +23,32 @@ const Timeline = ({posts}) =>{
 
 return(
 
-    <div>
-        <div>
+  
+        <div id="timeline">
             {posts.map((post, p) =>{
 
                 return(
                     
-                 
-                <div key={p}>
-                    <img src={post.user.image} width="50px" alt="user profile"></img>
-                    {post.user.name}
+                <div id='timelineMain'>
+                    <div id="timeline1" key={p}>
+                    <p> {post.user.name}</p>
+                        <img src={post.user.image} width="50px" alt="user profile"></img>
+                        
+                       </div> 
+                    
                   
                   
+                  <div id='timeline2'>
                     <Link to={`/post`}>
                     <img src={post.image} width="200px" alt="user profile"></img></Link>
                        <p>{post.description}</p> 
-                       
                 </div>
-                
+                </div>
                 )
-
-
-
-
-
+                       
             })}
-
-
-        
-        </div>
     </div>
+        
     
     
     

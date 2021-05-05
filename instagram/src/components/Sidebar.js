@@ -32,7 +32,7 @@ const Sidebar = () =>{
                 return(
                     
                     <div key={u}>
-                    {users.name}
+                    <p>{users.name}</p>
                     <Link to={`/verify`}>  
                     <img src={users.image} width="50px" alt="user profile"></img></Link>  
                     </div>

@@ -2,6 +2,7 @@
 import {useState, useContext} from 'react'
 import axios from 'axios'
 import {UserContext} from '../Context/UserContext'
+import logo from '../images/logo.png'
 
 const Login = () =>{
     
@@ -23,7 +24,7 @@ const Login = () =>{
                 localStorage.setItem('userId', newUser.data.user.id)
                 setUser( newUser.data.user)
             } catch (error) {
-                
+                console.log(error);
             }
 
 }
@@ -33,8 +34,9 @@ const Login = () =>{
 
     return(
 
-        <div>
-            <form onSubmit={handleSubmit}>
+        <div id="login">
+            <form id='loginForm' onSubmit={handleSubmit}>
+            <img src={logo} width="100px"></img>
                 <div>
                     <label htmlFor='email'></label> 
                     <input id='email' placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)} />
@@ -44,7 +46,7 @@ const Login = () =>{
                     <label htmlFor='password'></label>
                     <input placeholder='Password' id='password' value={password} onChange={(e) =>setPassword(e.target.value)} />
                 </div>
-                    <button type='submit' value='submit'>Login</button>
+                    <button id="loginButton" type='submit' value='submit'>Log in</button>
                 
 
 

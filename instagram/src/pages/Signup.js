@@ -2,6 +2,7 @@ import {useState ,useContext} from 'react'
 import axios from 'axios'
 import {UserContext} from '../Context/UserContext'
 import {Link} from 'react-router-dom'
+import logo from '../images/logo.png'
 
 
 
@@ -34,9 +35,11 @@ const Signup = () =>{
 
     return(
 
-        <div>
-            <form onSubmit={handleSubmit}>
+        <div className="signup">
+            <form id='styleForm' onSubmit={handleSubmit}>
+            <img src={logo} width="100px"></img>
                 <div>
+                    
                     <label htmlFor='name'></label>
                     <input id='name' placeholder='Username' value={name} onChange={(e) => setName(e.target.value)}/>
                 </div>
@@ -54,7 +57,7 @@ const Signup = () =>{
 
             </form>
 
-            <div>
+            <div id="styleLogin">
                 Have and Account? <Link to='login'>Log In</Link>
 
             </div>
