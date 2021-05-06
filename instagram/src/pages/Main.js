@@ -12,6 +12,7 @@ const Main = ({posts}) =>{
     const [user, setUser] = userState
     
     return(
+    
     <div id='main'>
         <div className='container'> 
             <ImagePost />

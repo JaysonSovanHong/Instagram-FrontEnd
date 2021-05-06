@@ -5,6 +5,7 @@ import {UserContext} from './Context/UserContext'
 import axios from 'axios';
 
 import Navbar from './components/Navbar'
+import EditUser from './pages/EditUser';
 
 
 
@@ -47,6 +48,7 @@ useEffect(showPost,[])
           <Route exact path='/signup' render={() =>{return <Signup />}} />
           <Route exact path='/profile' render={() =>{return <Profile posts={allPost}/>} } />
           <Route exact path='/main' render={() =>{return <Main posts={allPost} />}} />
+          <Route exact path='/user/update' render={() =>{return <EditUser />}} />
           </Suspense>
         </Switch>
     </div>
