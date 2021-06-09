@@ -1,13 +1,21 @@
 
 import { useContext, useEffect,useState } from "react"
 import {UserContext} from '../Context/UserContext'
-import {Link} from 'react-router-dom'
-import Comment from '../pages/Comment'
+import axios from "axios"
+import Post from "./Post"
 
 const Timeline = ({posts}) =>{
     const {userState} = useContext(UserContext) 
     const [user, setUser] = userState
+    const [comment, setComment] = useState('')
+    const showComment = async () => {
+        try {
+            const oneComment = await axios.get(`${process.env.REACT_APP_BURL}/`, ) 
+        } catch (error) {
+            
+        }
 
+    }
 
 return(
 
@@ -16,21 +24,14 @@ return(
         {posts.map((post, p) =>{
 
         return(
-            <div key={p}>
-            <div id='timelineMain'>
-                <div id="timeline1" >
-                    <p> {post.user.name}</p>
-                        <img src={post.user.image} width="50px" alt="user profile"></img>
-                </div> 
-                
-                <div id='timeline2'>
-                    <Link to={`/post`}>
-                    <img src={post.image} width="200px" alt="user profile"></img></Link>
-                       <p>{post.description}</p> 
-                </div>
-            </div>
-            <Comment />
-            </div>        
+            <Post post={post} key={p} />
+            )
+        })}
+    </div>
+            
+           
+
+                   
                        
                        
                     
@@ -38,10 +39,7 @@ return(
                   
                
 
-                )
                        
-            })}
-    </div>
         
     
     
